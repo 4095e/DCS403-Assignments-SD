@@ -15,6 +15,6 @@ int main() {
      cout << value << endl;}
 
     else {
-        cout << ascii << endl;
+        cout << ascii << endl; 
     }
 }
