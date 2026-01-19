@@ -9,14 +9,13 @@ int main() {
     cin >> number;
 
     int counter = number;
+    int sum = 0;
 
     while (counter > 0) {
-
-        number = number +1;
+        sum = sum + counter;
         counter--; 
-
     }
 
-    printf("The sum is %d \n",number);
+    printf("The sum is %d \n", sum);
     return 0;
 }
