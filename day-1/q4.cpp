@@ -1,0 +1,3 @@
+#include <iostream>
+using namespace std;
+int main() { int n; cout << "Elements: "; cin >> n; int arr[n]; for (int i = 0; i < n; i++) { cout << "Element " << i + 1 << ": "; cin >> arr[i]; } int target; cout << "\nSearch: "; cin >> target; int idx = -1; for (int i = 0; i < n; i++) if (arr[i] == target) { idx = i; break; } if (idx != -1) cout << "Found at: " << idx << endl; else cout << "Not found!" << endl; return 0; }

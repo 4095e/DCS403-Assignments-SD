@@ -1,0 +1,3 @@
+#include <iostream>
+using namespace std;
+int main() { int matrix[2][3]; int sum = 0; cout << "Enter 6 elements:\n"; for (int i = 0; i < 2; i++) for (int j = 0; j < 3; j++) { cout << "Element [" << i << "][" << j << "]: "; cin >> matrix[i][j]; sum += matrix[i][j]; } cout << "\nMatrix:\n"; for (int i = 0; i < 2; i++) { for (int j = 0; j < 3; j++) cout << matrix[i][j] << " "; cout << endl; } cout << "\nSum: " << sum << endl; return 0; }
